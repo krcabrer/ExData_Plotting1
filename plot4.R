@@ -67,7 +67,7 @@ legend("topright",legend=names(housPowCons)[7:9],
 box()
 
 with(housPowCons,plot(Global_reactive_power ~ Time, type= "l",
-                      xlab = "datatime"))
+                      xlab = "datetime"))
 dev.off()
 
 
