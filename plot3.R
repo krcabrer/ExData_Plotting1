@@ -53,6 +53,8 @@ with(housPowCons,plot(Sub_metering_1 ~ Time, type= "l",
                       xlab = ""))
 with(housPowCons,lines(Time,Sub_metering_2, col = "red"))
 with(housPowCons,lines(Time,Sub_metering_3, col = "blue"))
+legend("topright",legend=names(housPowCons)[7:9],
+       col=c("black","red","blue"),lty=1)
 dev.off()
 
 
