@@ -45,8 +45,6 @@ housPowCons$Date <- as.Date(housPowCons$Date, format = "%d/%m/%Y")
 housPowCons$Time <- as.POSIXct(strptime(paste(housPowCons$Date,housPowCons$Time), 
                              format = "%Y-%m-%d %H:%M:%S"))
 
-
-
 png("plot4.png", width = 480,height = 480)
 par(mfrow = c(2,2))
 
