@@ -4,7 +4,6 @@
 # Student: Kenneth Roy Cabrera Torres
 # Course Project 1 (25% of final grade)
 # plot1
-
 ################################################################################
 # Calculate a rough estimate of how much memory the dataset will require.
 # 2'075.256 rows, 9 columns, 8 bytes each
