@@ -6,12 +6,14 @@
 # plot1
 ################################################################################
 
+
 # Calculate a rough estimate of how much memory the dataset will require.
 # 2'075.256 rows, 9 columns, 8 bytes each
 2075256 * 9 * 8 
 # Convert to Gigabytes 1 GB = 2^30 bytes
 (2075256 * 9 * 8)/(2^30)
 # About ~140 MB, the whole dataset.
+
 
 # Selecting only data form dates 2007-02-01 and 207-02-02
 # Reading only the first column of the dataset to select those rows that
