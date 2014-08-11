@@ -49,6 +49,7 @@ housPowCons$Time <- as.POSIXct(strptime(paste(housPowCons$Date,housPowCons$Time)
 
 png("plot4.png", width = 480,height = 480)
 par(mfrow = c(2,2))
+
 with(housPowCons,plot(Global_active_power ~ Time, type= "l",
                       ylab = "Global Active Power",
                       xlab = ""))
