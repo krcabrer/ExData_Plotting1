@@ -47,7 +47,7 @@ housPowCons$Time <- as.POSIXct(strptime(paste(housPowCons$Date,housPowCons$Time)
                              format = "%Y-%m-%d %H:%M:%S"))
 
 ################################################################################
-# Plot1
+# plot1
 
 png("plot1.png", width = 480,height = 480)
 with(housPowCons,hist(Global_active_power,
