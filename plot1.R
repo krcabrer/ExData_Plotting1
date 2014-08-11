@@ -6,7 +6,6 @@
 # plot1
 ################################################################################
 
-
 # Calculate a rough estimate of how much memory the dataset will require.
 # 2'075.256 rows, 9 columns, 8 bytes each
 2075256 * 9 * 8 
@@ -41,7 +40,7 @@ headHousPowCons <- read.table("household_power_consumption.txt",
                      na.strings = c("?"),
                      nrows=1)
 
-Sys.setlocale("LC_TIME", "en_US.UTF-8")  
+Sys.setlocale("LC_TIME" , "en_US.UTF-8")  
 names(housPowCons) <- names(headHousPowCons)
 housPowCons$Date <- as.Date(housPowCons$Date, format = "%d/%m/%Y")
 housPowCons$Time <- as.POSIXct(strptime(paste(housPowCons$Date,housPowCons$Time), 
