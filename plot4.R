@@ -3,7 +3,7 @@
 # Prof: Roger D. Peng, PhD, Jeff Leek, PhD, Brian Caffo, PhD
 # Student: Kenneth Roy Cabrera Torres
 # Course Project 1 (25% of final grade)
-# plot3
+# plot4
 
 ################################################################################
 # Calculate a rough estimate of how much memory the dataset will require.
